@@ -171,6 +171,10 @@
   \*-----------------------------------*/
   
   .container { padding-inline: 15px; }
+  .container_footer{
+    display: flex;
+    justify-content:space-between;
+  }
   
   .section { padding-block: var(--section-padding); }
   
@@ -754,10 +758,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #4070f4;
+    background-color: aqua;
+    
   }
   .testimonials {
-    max-width: 1000px;
+   justify-content: space-between;
     width: 100%;
     margin: auto;
    
@@ -787,6 +792,15 @@
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin-right: 23px;
+  }
+  .swiper-slide .testimonial-item{
+    width: 48%;
+    
+  }
+  .swiper-wrapper{
+    display: flex;
+
   }
   
   .testimonial-item .info {
@@ -845,6 +859,10 @@
     color: var(--gray-x-11);
     font-size: var(--fs-5);
   }
+  .grid-lists{
+    display: flex;
+    justify-content: space-between;
+  }
   
   .footer-top {
     display:grid;
@@ -890,8 +908,8 @@
   
   .social-list {
     display:flex;
-  
-    gap: 25px;
+  justify-content: space-evenly;
+    gap:10px;
   }
   
   .social-link { font-size: 20px; }
