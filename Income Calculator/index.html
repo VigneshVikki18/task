@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Income Expense Calculator</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Income Expense Calculator</h1>
+
+    <div class="summary">
+      <p>Total Income: <span id="total-income">Rs.0</span></p>
+      <p>Total Expense: <span id="total-expense">Rs.0</span></p>
+      <p>Balance: <span id="balance">Rs.0</span></p>
+    </div>
+
+    <form id="transaction-form">
+      <input type="text" id="description" placeholder="Description" required />
+      <input type="number" id="amount" placeholder="Amount" required />
+      <select id="type">
+        <option value="income">Income</option>
+        <option value="expense">Expense</option>
+      </select>
+      <button type="submit">Add Transaction</button>
+    </form>
+
+    <ul id="transaction-list"></ul>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
