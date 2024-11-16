@@ -9,4 +9,5 @@ const ProductList = ({ products, addToCart }) => (
     </div>
 );
 
+
 export default ProductList;

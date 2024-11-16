@@ -23,4 +23,5 @@ const CartModal = ({ cart, closeCart, removeFromCart }) => (
     </div>
 );
 
+
 export default CartModal;

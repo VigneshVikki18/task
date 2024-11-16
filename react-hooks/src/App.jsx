@@ -10,6 +10,7 @@ const App = () => {
     const [isCartOpen, setIsCartOpen] = useState(false);
 
     // Fetch products from the Fake Store API
+    
     useEffect(() => {
         const fetchProducts = async () => {
             try {
