@@ -9,5 +9,4 @@ const Navbar = ({ cartCount, openCart }) => (
     </nav>
 );
 
-
 export default Navbar;

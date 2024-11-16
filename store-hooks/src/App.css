@@ -1,0 +1,70 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-image: linear-gradient(to left, #18A0BE, #e71db5);
+  color: white;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card, .cart-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  max-width: 250px;
+  text-align: center;
+}
+
+.cart-modal {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: white;
+  padding: 20px;
+  border: 2px solid #333;
+  width: 400px;
+  max-width: 500px;
+}
+
+.cart-list {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-item-image, .product-image {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+ 
+}
+
+.cart-button {
+  cursor: pointer;
+  color: white;
+  background: #333;
+  border: none;
+  padding: 10px;
+
+}
+.close-button,.remove-button {
+   background-color: rgb(214, 47, 47);
+   
+} 
+.add-button {
+  background-color: rgb(50, 218, 50);
+}
